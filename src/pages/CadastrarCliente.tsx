@@ -93,8 +93,8 @@ function CadastrarCliente() {
       }
 
       if (!cliente.email) {
-        handleAction(3, 'Informe o email do cliente', true)
-        setTimeout(() => { handleAction(3, 'Informe o email do cliente', false) }, 5000)
+        handleAction(3, 'Informe o e-mail do cliente', true)
+        setTimeout(() => { handleAction(3, 'Informe o e-mail do cliente', false) }, 5000)
         return
       }
 
@@ -183,9 +183,9 @@ function CadastrarCliente() {
           />
         </div>
         <HelperText visible={cepFocused && hasErrorsCep()} description='Digite o CEP do Cliente'></HelperText>
-
-        <button type="submit">Cadastrar</button>
         <FloatingAlert type={type} title={title} action={action} />
+        <button type="submit">Cadastrar</button>
+      
       </form>
 
     </div>

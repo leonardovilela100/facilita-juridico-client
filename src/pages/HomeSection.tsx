@@ -6,7 +6,7 @@ function HomeSection() {
   return (
     <div className='container'>
       <img src={logo} alt="Logo Facilita Jurídico" className='logo' />
-      <h1 className='title'>Facilita Jurídico</h1>
+      <h1 >Facilita Jurídico</h1>
       <p className='description'>
         O projeto Facilita Jurídico é uma solução de gerenciamento de clientes
         desenvolvida para otimizar as rotas de visitas, visando reduzir custos

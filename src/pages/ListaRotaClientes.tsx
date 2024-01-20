@@ -25,7 +25,7 @@ function ListaRotaClientes() {
 
   return (
     <div>
-      <h2>Rota do Dia {dataHoje}</h2>
+      <h2>Rota de visita -  Dia {dataHoje}</h2>
       <div style={{ padding: 15 }}>
         <table>
           <thead>

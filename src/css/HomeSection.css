@@ -8,13 +8,8 @@
   margin-bottom: 20px;
 }
 
-.title {
-  color: #003366;
-  margin-bottom: 20px;
-}
-
 .description {
-  color: #555;
+  color: #000000;
   font-size: 18px;
   max-width: 600px;
   margin-left: auto;

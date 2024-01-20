@@ -1,46 +1,86 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="pt">
+<body>
+    <h1>Projeto Facilita Jurídico</h1>
+      <h2>Descrição do Projeto</h2>
+    <p>O projeto Facilita Jurídico é uma solução de gerenciamento de clientes desenvolvida para otimizar as rotas de visitas, visando reduzir custos e economizar tempo. O sistema permite o cadastro de clientes e utiliza algoritmo para calcular a menor rota possível, baseando-se em informações geográficas.</p>
+      <h2>Iniciando o Projeto</h2>
+    <h3>Pré-requisitos</h3>
+    <p>Antes de iniciar, certifique-se de ter o Node.js e o npm instalados em seu computador.</p>
+    <ul>
+        <li>Node.js</li>
+        <li>npm</li>
+    </ul>
+      <h3>Instalação</h3>
+    <p>Siga os passos abaixo para configurar o projeto em sua máquina local:</p>
+    <ol>
+     <li><strong>Baixe as dependências:</strong> Use <code>npm install</code> para baixar todas as dependências.</li>
+        <li><strong>Inicie o projeto ReactJs:</strong> Use <code>npm start</code>para iniciar o projeto.</li>
+        <pre><code>npm start</code></pre>
+    </ol>
+<h3>Dependências</h3>
+<p>As dependências do projeto <code>cliente-facilita-juridico</code> incluem:</p>
+<ul>
+    <li><code>@types/jest</code>: Tipagens TypeScript para Jest.</li>
+    <li><code>@types/node</code>: Tipagens TypeScript para Node.js.</li>
+    <li><code>@types/react</code>: Tipagens TypeScript para React.</li>
+    <li><code>@types/react-dom</code>: Tipagens TypeScript para ReactDOM.</li>
+    <li><code>axios</code>: Cliente HTTP baseado em promessas para fazer requisições.</li>
+    <li><code>react</code>: Biblioteca JavaScript para construir interfaces de usuário.</li>
+    <li><code>react-dom</code>: Pacote para trabalhar com o DOM em aplicações React.</li>
+    <li><code>react-router-dom</code>: Biblioteca de roteamento dinâmico para React.</li>
+    <li><code>react-scripts</code>: Conjunto de scripts e configurações usado pelo Create React App.</li>
+    <li><code>typescript</code>: Superset de JavaScript que adiciona tipagens.</li>
+</ul>
+      <h3>Estrutura de Pastas do Projeto</h3>
+    <p>O projeto está estruturado da seguinte forma:</p>
+    <pre><code>facilita-juridico-Client/
+├── public/
+│ 
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── css/
+│   ├── models/
+│   ├── pages/
+│   ├── services/
+│   ├── index.tsx    
+│   
+</code></pre>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2>Dados de Exemplo para Cadastro de Clientes</h2>
+    <p>Segue abaixo um exemplo de JSON com dados de clientes para ser utilizado no cadastro:</p>
+    <pre><code>[
+    {
+      "nome": "Teste Cidade - Prata",
+      "email": "prata@gmail.com",
+      "telefone": "99999",
+      "cep": "38140000"
+    },
+    {
+      "nome": "Teste Cidade - Rio de Janeiro",
+      "email": "rio@gmail.com",
+      "telefone": "99999",
+      "cep": "20230010"
+    },
+    {
+      "nome": "Teste Cidade - Uberlandia",
+      "email": "uberlandia@gmail.com",
+      "telefone": "99999",
+      "cep": "38204054"
+    },
+    {
+      "nome": "Teste Cidade - São Jose Dos Campos",
+      "email": "saojosedoscampos@gmail.com",
+      "telefone": "99999",
+      "cep": "12244521"
+    },
+    {
+      "nome": "Teste Cidade - Araguari",
+      "email": "araguari@gmail.com",
+      "telefone": "99999",
+      "cep": "38443084"
+    }
+]</code></pre>
+</body>
+</html>
